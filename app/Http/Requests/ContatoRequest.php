@@ -46,7 +46,7 @@ class ContatoRequest extends FormRequest
     public function messages()
     {
         return [
-            'telefone.required' => 'O campo Saudação é obrigatório',
+            'telefone.required' => 'O campo telefone é obrigatório',
             'nome.required' => 'O campo Nome é obrigatório',
             'email.email' => 'Informe um e-mail válido',
         ];
